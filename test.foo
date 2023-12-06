@@ -1,0 +1,8 @@
+let five = 5;
+let eight = 3 + five;
+fn add x y = x + y;
+fn double x = add(x, x);
+
+let x = double(add(five, eight));
+let x = x * -1;
+x
